@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.counter {
+  text-align: center;
+}
+.clicks {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 84px;
+  color: #37474F;
+}
+.btn-container button {
+  background: #5E19F5;
+  border: 1px solid #979797;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  color: #FFFFFF;
+  padding: .5em 1em;
+  margin: 1em;
+  cursor: pointer;
+  transform: .5s;
+}
+
+.btn-container button:hover {
+  background: #5000fc;
+}
+.btn-container button:active {
+  border: 1px solid #ffffff;
+}
